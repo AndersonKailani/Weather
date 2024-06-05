@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Search - search</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/cityData.js" defer></script>
+    <script src="scripts/cityDisplay.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="weather.html">Weather</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>City Finder</h1>
+        <div class="dropdown-container">
+            <label for="citySelect">Select a city:</label>
+            <select id="citySelect">
+                <option value="">Select a city</option>
+            </select>
+        </div>
+        <section id="cityInfoContainer" class="city-info-container">
+            <!-- City info will be displayed here -->
+        </section>
+        <div id="forecast-container"></div>
+    </main>
+</body>
+</html>
